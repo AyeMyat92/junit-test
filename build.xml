@@ -15,7 +15,7 @@
   </target>
 
  
-  <target name="junitreport" depends="gittest3">
+  <target name="junitreport" depends="CalulatorTest">
     <junit printsummary="on" haltonfailure="yes" fork="true">
         <classpath>
           <path refid="classpath.test"/>
