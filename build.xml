@@ -3,12 +3,10 @@
   <property name="main.src.dir" value="src"/>
   <property name="test.build.dir" value="output"/>
   <property name="test.src.dir" value="src/test/java"/>
-  <property name="ECLIPSE_HOME" value="D:/eclipse_kepler_sr2(NEW)"/>
+  <property name="JUNIT_HOME" value="D:/junit"/>
 
   <path id="classpath.test">
-    <pathelement location="${ECLIPSE_HOME}/plugins/org.junit_4.11.0.v201303080030/junit.jar"/>
-  	        <pathelement location="${ECLIPSE_HOME}/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
-    <pathelement location="${main.build.dir}"/>
+    <pathelement location="${JUNIT_HOME}/lib/junit-4.10.jar">
   </path>
 
   <target name="compile">
