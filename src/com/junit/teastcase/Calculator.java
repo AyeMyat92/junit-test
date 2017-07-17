@@ -1,5 +1,3 @@
-package com.junit.teastcase;
-
 public class Calculator {
 	  public int evaluate(String expression) {
 	    int sum = 0;
