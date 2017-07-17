@@ -1,6 +1,6 @@
 <project name="junit-example">
   <property name="main.build.dir" value=""/>
-  <property name="main.src.dir" value="src"/>
+  <property name="main.src.dir" value="src/com/junit/testcase"/>
   <property name="test.build.dir" value="output"/>
   <property name="test.src.dir" value="src/test/java"/>
   <property name="JUNIT_HOME" value="D:/junit"/>
@@ -14,13 +14,7 @@
     <javac srcdir="${main.src.dir}" destdir="${main.build.dir}" includeantruntime="false"/>
   </target>
 
-  <target name="test-compile" depends="compile">
-    <mkdir dir="${test.build.dir}"/>
-    <javac srcdir="${test.src.dir}" destdir="${test.build.dir}" includeantruntime="false">
-        <classpath refid="classpath.test"/>
-    </javac>
-  </target>
-
+ 
   <target name="test" depends="test-compile">
     <junit printsummary="on" haltonfailure="yes" fork="true">
         <classpath>
