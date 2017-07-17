@@ -1,5 +1,5 @@
 <project name="gittest3">
-  <property name="main.build.dir" value=""/>
+  <property name="main.build.dir" value="src/com/junit/testcase/bin"/>
   <property name="main.src.dir" value="src/com/junit/testcase"/>
   <property name="test.build.dir" value="output"/>
   <property name="test.src.dir" value="src/test/java"/>
