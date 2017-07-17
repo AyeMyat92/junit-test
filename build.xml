@@ -6,7 +6,7 @@
   <property name="JUNIT_HOME" value="D:/junit"/>
 
   <path id="classpath.test">
-    <pathelement location="${JUNIT_HOME}/lib/junit-4.10.jar">
+    <pathelement location="${JUNIT_HOME}/lib/junit-4.10.jar"></pathelement>
   </path>
 
   <target name="compile">
